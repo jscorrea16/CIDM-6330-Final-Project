@@ -1,2 +1,2 @@
-<!-- I have tried to simplify my domain model. -->
+I have tried to simplify my domain model.
 
