@@ -17,16 +17,20 @@ class PestObservation:
         return f"{self.city} - {self.county} - {self.obs_date}"
 
 
+class Illness:
+    def __init__(self, suspect_pathogen):
+        self.suspect_pathogen = suspect_pathogen
 
-class MaladyType:
-    def __init__(self):
-        self.known_vectors: Pest = []
+    def __str__(self) -> str:
+        return self.suspect_pathogen
 
 
-class ImpactObservation:
-    def __init__(self):
-        self.malady_type = None
-        self.species = None
-        self.city = None
-        self.county = None
-        self.obs_date = None
+class DiagnosticTesting:
+    def __init__(self, test_type, antibody_type, test_results, record_date):
+        self.test_type = test_type
+        self.antibody_type = antibody_type
+        self.test_results = test_results
+        self.record_date = record_date
+
+    def __str__(self) -> str:
+        return f"{self.test_type} - {self.antibody_type} - {self.test_results} - {self.record_date}"
