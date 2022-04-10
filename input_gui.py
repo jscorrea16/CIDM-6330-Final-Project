@@ -5,11 +5,13 @@ ROOT = tk.Tk()
 
 ROOT.withdraw()
 
-USER_INP = simpledialog.askstring(title="Welcome to Texas PAV",
-                                  prompt="Please report your incident")
+USER_INP = simpledialog.askstring(
+    title="Welcome to Texas PAV", prompt="Please report your incident"
+)
 
-USER_INP2 = simpledialog.askstring(title="Location",
-                                   prompt="Enter location:City, County, Date")
+USER_INP2 = simpledialog.askstring(
+    title="Location", prompt="Enter location:City, County, Date"
+)
 
 # Print the user input
 print(USER_INP, "Thank you for your report!")

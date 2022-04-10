@@ -1,12 +1,10 @@
 class Pest:
-    def __init__(self, x):
-        self.x = x
+    def __init__(self, genus, species):
+        self.genus = genus
+        self.species = species
 
-
-pest = Pest("Culex pipiens")
-print(pest.x)
-pest = Pest("Loxosceles reclusa")
-print(pest.x)
+    def __str__(self) -> str:
+        return f"{self.genus} - {self.species}"
 
 
 class PestObservation:
@@ -15,9 +13,9 @@ class PestObservation:
         self.county = county
         self.obs_date = obs_date
 
+    def __str__(self) -> str:
+        return f"{self.city} - {self.county} - {self.obs_date}"
 
-pestobservation = PestObservation("Amarillo,", "Randall", "3/22/2022")
-print(pestobservation.city, pestobservation.county, pestobservation.obs_date)
 
 
 class MaladyType:
