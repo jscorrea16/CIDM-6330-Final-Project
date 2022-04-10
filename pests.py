@@ -10,16 +10,14 @@ print(pest.x)
 
 
 class PestObservation:
-    def __init__(self, city, county, z):
+    def __init__(self, city, county, obs_date):
         self.city = city
         self.county = county
-        self.z = z
+        self.obs_date = obs_date
 
 
 pestobservation = PestObservation("Amarillo,", "Randall", "3/22/2022")
-print(pestobservation.city, pestobservation.county, pestobservation.z)
-pestobservation = PestObservation("Canyon,", "Randall", "3/27/2022")
-print(pestobservation.city, pestobservation.county, pestobservation.z)
+print(pestobservation.city, pestobservation.county, pestobservation.obs_date)
 
 
 class MaladyType:
