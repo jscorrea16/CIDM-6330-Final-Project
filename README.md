@@ -7,5 +7,4 @@ of my project was lacking as well as the ORM portion.
 
 ![2nd Domain Model](https://user-images.githubusercontent.com/89432089/161450172-5ff304d4-afa7-4306-960d-abcb2215a371.png)
 
-
-https://raw.githubusercontent.com/github/gitignore/main/Python.gitignore![Joshua Correa - Domain Model 1st Draft](https://user-images.githubusercontent.com/89432089/166168272-334c6ebd-c74c-4073-aa78-8190f35eb66e.jpg)
+[Joshua Correa - Domain Model 1st Draft](https://user-images.githubusercontent.com/89432089/166168272-334c6ebd-c74c-4073-aa78-8190f35eb66e.jpg)
